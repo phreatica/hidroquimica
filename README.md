@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/hidroquimica)](https://www.npmjs.com/package/hidroquimica)
 [![licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24236806.svg)](https://doi.org/10.5281/zenodo.24236806)
 
 **Hidroquímica em TypeScript, sem dependências:** conversões mg/L ↔ meq/L ↔ mmol/L, balanço iônico com critério de aceitação selecionável, coordenadas do diagrama de Piper, diagramas de Stiff e Schoeller, fácies pelo íon dominante e leitura de resultados de laboratório no formato brasileiro (`12,5`, `<0,5`, `ND`).
 
