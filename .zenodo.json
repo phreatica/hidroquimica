@@ -1,0 +1,11 @@
+{
+  "title": "hidroquimica: hydrochemistry toolkit in TypeScript (Piper, Stiff, Schoeller, ion balance)",
+  "upload_type": "software",
+  "description": "Open-source TypeScript library for hydrochemistry: mg/L ↔ meq/L ↔ mmol/L conversions, ion balance with selectable acceptance criteria, Piper diagram coordinates, Stiff and Schoeller diagrams, dominant-ion facies and parsing of Brazilian-formatted lab results. Used by the free tools at https://phreatica.com/ferramentas/.",
+  "creators": [{ "name": "Phreatica" }],
+  "license": "MIT",
+  "keywords": ["hydrochemistry", "hydrogeology", "groundwater", "Piper diagram", "Stiff diagram", "Schoeller diagram", "ion balance", "water quality"],
+  "related_identifiers": [
+    { "identifier": "https://phreatica.com/ferramentas/", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}

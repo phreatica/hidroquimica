@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Se usar este software em trabalhos acadêmicos ou relatórios, cite-o assim. / If you use this software, please cite it as below."
+title: "hidroquimica: hydrochemistry toolkit in TypeScript (Piper, Stiff, Schoeller, ion balance)"
+type: software
+authors:
+  - name: "Phreatica"
+    website: "https://phreatica.com"
+version: 0.1.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/phreatica/hidroquimica"
+url: "https://phreatica.github.io/hidroquimica/"
+keywords:
+  - hydrochemistry
+  - hydrogeology
+  - groundwater
+  - Piper diagram
+  - Stiff diagram
+  - Schoeller diagram
+  - ion balance
+references:
+  - type: article
+    title: "A graphic procedure in the geochemical interpretation of water-analyses"
+    authors:
+      - family-names: Piper
+        given-names: Arthur M.
+    journal: "Transactions, American Geophysical Union"
+    volume: 25
+    issue: 6
+    start: 914
+    end: 928
+    year: 1944
+  - type: article
+    title: "The interpretation of chemical water analysis by means of patterns"
+    authors:
+      - family-names: Stiff
+        given-names: Henry A.
+    journal: "Journal of Petroleum Technology"
+    volume: 3
+    issue: 10
+    start: 15
+    end: 17
+    year: 1951

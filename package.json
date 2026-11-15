@@ -1,0 +1,63 @@
+{
+  "name": "hidroquimica",
+  "version": "0.1.0",
+  "description": "Hidroquímica em TypeScript: conversões mg/L ↔ meq/L, balanço iônico, coordenadas do diagrama de Piper, Stiff, Schoeller, fácies e leitura de números no formato brasileiro. Hydrochemistry toolkit (Piper, Stiff, Schoeller, ion balance).",
+  "keywords": [
+    "hidroquimica",
+    "hydrochemistry",
+    "hydrogeology",
+    "groundwater",
+    "piper-diagram",
+    "stiff-diagram",
+    "schoeller-diagram",
+    "ion-balance",
+    "water-quality",
+    "geochemistry",
+    "brasil"
+  ],
+  "homepage": "https://phreatica.github.io/hidroquimica/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phreatica/hidroquimica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phreatica/hidroquimica/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Phreatica",
+    "url": "https://phreatica.com"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "tsup": "8.5.1",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
